@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/backgroud"
+tools:context=".MainActivity">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="The computer only considers a number from 1 to 9999!"
+    android:layout_marginTop="50dp"
+    android:layout_marginLeft="10dp"
+    android:textSize="22dp"
+    android:textColor="@color/textcolor"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+
+<EditText
+    android:id="@+id/EditText1"
+    style="@style/EditTextStyle"
+    android:layout_width="180dp"
+    android:layout_height="60dp"
+    android:layout_marginTop="240dp"
+    android:textSize="44dp"
+    android:singleLine="true"
+    android:textScaleX="1.5"
+    android:maxLength="4"
+    android:inputType="number"
+    android:layout_marginLeft="110dp"
+    android:hint="####"
+    android:textColorHint="@color/textcolor"
+    />
+
+<ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginTop="420dp"
+    android:layout_marginLeft="145dp"
+    android:src="@drawable/blackcheck"/>
+
+</RelativeLayout>
